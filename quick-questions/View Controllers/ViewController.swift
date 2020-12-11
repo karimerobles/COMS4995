@@ -14,6 +14,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var questionLbl: UILabel!
     @IBOutlet weak var option1Btn: UIButton!
     @IBOutlet weak var option2Btn: UIButton!
+    @IBOutlet weak var progress: UIProgressView!
     @IBOutlet weak var option3Btn: UIButton!
     @IBOutlet weak var option4Btn: UIButton!
     @IBOutlet weak var answerBtn: UIButton!
@@ -51,6 +52,12 @@ class ViewController: UIViewController {
         
         guard let quiz = quiz, let question = quiz.getNextQuestion() else { return }
         _setViewWithQuestion(with: question)
+        
+        progress.progress = (Float(quiz.questionIndex)/Float(quiz.questions.count))
+        progress.layer.cornerRadius = 10
+        progress.clipsToBounds = true
+        progress.layer.sublayers![1].cornerRadius = 10
+        progress.subviews[1].clipsToBounds = true
     }
     
     private func _setViewWithQuestion(with question: Question) {
@@ -140,7 +147,6 @@ class ViewController: UIViewController {
             option4Btn.backgroundColor = selectedOption == 4 ? selectedColor : notSelectedColor
         }
     }
-    
     
     // MARK: - Answer actions
 
