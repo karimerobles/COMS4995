@@ -250,6 +250,12 @@
                                 <color key="textColor" red="0.99989169840000003" green="1" blue="0.99988096950000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gC6-O0-3xJ">
+                                <rect key="frame" x="20" y="155" width="374" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="7oT-pD-tLP"/>
                         <color key="backgroundColor" red="0.45098039215686275" green="0.74117647058823533" blue="0.38039215686274508" alpha="0.84705882352941175" colorSpace="calibratedRGB"/>
@@ -257,12 +263,15 @@
                             <constraint firstItem="6pK-z1-ZNg" firstAttribute="centerY" secondItem="vk6-VE-2O0" secondAttribute="centerY" constant="100" id="03y-YF-nxY"/>
                             <constraint firstItem="Obg-br-E2Q" firstAttribute="leading" secondItem="6pK-z1-ZNg" secondAttribute="leading" id="86x-Ly-0GL"/>
                             <constraint firstItem="Obg-br-E2Q" firstAttribute="centerY" secondItem="vk6-VE-2O0" secondAttribute="centerY" id="8xe-R3-pFw"/>
+                            <constraint firstItem="gC6-O0-3xJ" firstAttribute="top" secondItem="8B3-2n-RHV" secondAttribute="bottom" constant="30" id="COA-B6-XJY"/>
                             <constraint firstItem="8B3-2n-RHV" firstAttribute="top" secondItem="7oT-pD-tLP" secondAttribute="top" constant="60" id="PLk-LF-P6y"/>
                             <constraint firstItem="Obg-br-E2Q" firstAttribute="centerX" secondItem="vk6-VE-2O0" secondAttribute="centerX" id="T3d-n9-XzF"/>
                             <constraint firstItem="6pK-z1-ZNg" firstAttribute="top" secondItem="Obg-br-E2Q" secondAttribute="bottom" constant="50" id="VL9-80-KlQ"/>
+                            <constraint firstItem="gC6-O0-3xJ" firstAttribute="leading" secondItem="7oT-pD-tLP" secondAttribute="leading" constant="20" id="byf-zr-o0F"/>
                             <constraint firstItem="6pK-z1-ZNg" firstAttribute="centerX" secondItem="vk6-VE-2O0" secondAttribute="centerX" id="dLP-S2-xAj"/>
                             <constraint firstItem="8B3-2n-RHV" firstAttribute="centerX" secondItem="vk6-VE-2O0" secondAttribute="centerX" id="is6-d3-qBk"/>
                             <constraint firstItem="Obg-br-E2Q" firstAttribute="centerX" secondItem="vk6-VE-2O0" secondAttribute="centerX" id="jco-oz-6Cm"/>
+                            <constraint firstItem="7oT-pD-tLP" firstAttribute="trailing" secondItem="gC6-O0-3xJ" secondAttribute="trailing" constant="20" id="koX-8B-ZPo"/>
                             <constraint firstItem="Obg-br-E2Q" firstAttribute="trailing" secondItem="6pK-z1-ZNg" secondAttribute="trailing" id="oKz-2y-kcT"/>
                             <constraint firstItem="6pK-z1-ZNg" firstAttribute="leading" secondItem="7oT-pD-tLP" secondAttribute="leading" constant="20" id="sZe-ie-2CC"/>
                             <constraint firstItem="7oT-pD-tLP" firstAttribute="trailing" secondItem="6pK-z1-ZNg" secondAttribute="trailing" constant="20" id="tbP-Tx-aQL"/>
@@ -270,6 +279,7 @@
                     </view>
                     <connections>
                         <outlet property="continueBtn" destination="6pK-z1-ZNg" id="8qy-8B-F3Z"/>
+                        <outlet property="highScoreLbl" destination="gC6-O0-3xJ" id="lUf-L5-kct"/>
                         <outlet property="resultsLbl" destination="Obg-br-E2Q" id="agt-XZ-tus"/>
                         <outlet property="titleLbl" destination="8B3-2n-RHV" id="hBg-jd-qwq"/>
                     </connections>

@@ -13,6 +13,7 @@ class ResultsVC: UIViewController {
     
     @IBOutlet weak var titleLbl: UILabel!
     @IBOutlet weak var resultsLbl: UILabel!
+    @IBOutlet weak var highScoreLbl: UILabel!
     @IBOutlet weak var continueBtn: UIButton!
     
     var quiz: Quiz?
@@ -36,11 +37,25 @@ class ResultsVC: UIViewController {
         continueBtn.layer.cornerRadius = 10
         
         guard let quiz = quiz else { return }
-        
-        resultsLbl.text = "You got \(quiz.correctAnswersCount)/\(quiz.questions.count) correct!"
+        let newScore = quiz.correctAnswersCount * 100
+        resultsLbl.text = "Your score: \(newScore)!"
         resultsLbl.font = UIFont.systemFont(ofSize: 20, weight: .medium)
         resultsLbl.textAlignment = .center
         resultsLbl.numberOfLines = 0
+        
+        highScoreLbl.font = UIFont.systemFont(ofSize: 20, weight: .medium)
+        highScoreLbl.textAlignment = .center
+        highScoreLbl.numberOfLines = 0
+        let defaults = UserDefaults.standard
+        let currentHighScore = defaults.integer(forKey: "HighScore")
+        if newScore > currentHighScore {
+            defaults.set(newScore, forKey: "HighScore")
+            highScoreLbl.text = "NEW high score!"
+        } else if newScore == currentHighScore {
+            highScoreLbl.text = ""
+        } else {
+            highScoreLbl.text = "Try better next time! Your high score: \(currentHighScore)"
+        }
     }
     
     @IBAction func continueBtnTap(_ sender: Any) {
