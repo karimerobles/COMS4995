@@ -55,6 +55,7 @@ class Question: NSObject {
     var allAnswers = [String]()
     var incorrectAnswers = [String]()
     var correctAnswer: String = ""
+    var correctIndex = -1
     
     init(jsonDict: NSDictionary) {
         super.init()
@@ -80,7 +81,12 @@ class Question: NSObject {
         }
         
         allAnswers += incorrectAnswers
-        allAnswers.insert(correctAnswer, at: Int.random(in: 0..<incorrectAnswers.count))
+        correctIndex = Int.random(in: 0...incorrectAnswers.count)
+        if correctIndex == incorrectAnswers.count {
+            allAnswers.append(correctAnswer)
+        } else {
+            allAnswers.insert(correctAnswer, at: correctIndex)
+        }
     }
     
     private func _correctStringFormat(of string: String) -> String {

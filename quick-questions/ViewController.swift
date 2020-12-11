@@ -25,6 +25,9 @@ class ViewController: UIViewController {
     var isCorrectAnswer = false
     
     var quiz: Quiz?
+    
+    let selectedColor = UIColor.white.withAlphaComponent(0.85)
+    let notSelectedColor = UIColor(red: 115.0/255.0, green: 187.0/255.0, blue: 97.0/255.0, alpha: 0.85)
 
     // MARK: - View functions
     override func viewDidLoad() {
@@ -59,13 +62,13 @@ class ViewController: UIViewController {
             
             self.questionLbl.text = question.question
             
-            self.option1Btn.setTitle(question.correctAnswer, for: .normal)
-            
-            var counter = 2
-            for incorrectAnswer in question.incorrectAnswers {
-                if counter == 2 {
+            var counter = 0
+            for incorrectAnswer in question.allAnswers {
+                if counter == 0 {
+                    self.option1Btn.setTitle(incorrectAnswer, for: .normal)
+                } else if counter == 1 {
                     self.option2Btn.setTitle(incorrectAnswer, for: .normal)
-                } else if counter == 3 {
+                } else if counter == 2 {
                     self.option3Btn.setTitle(incorrectAnswer, for: .normal)
                 } else {
                     self.option4Btn.setTitle(incorrectAnswer, for: .normal)
@@ -85,6 +88,11 @@ class ViewController: UIViewController {
     func selectOption1() {
         if !isProcessingAnswer {
             selectedOption = selectedOption == 1 ? 0 : 1
+            
+            option1Btn.backgroundColor = selectedOption == 1 ? selectedColor : notSelectedColor
+            option2Btn.backgroundColor = notSelectedColor
+            option3Btn.backgroundColor = notSelectedColor
+            option4Btn.backgroundColor = notSelectedColor
         }
     }
 
@@ -95,6 +103,11 @@ class ViewController: UIViewController {
     func selectOption2() {
         if !isProcessingAnswer {
             selectedOption = selectedOption == 2 ? 0 : 2
+            
+            option1Btn.backgroundColor = notSelectedColor
+            option2Btn.backgroundColor = selectedOption == 2 ? selectedColor : notSelectedColor
+            option3Btn.backgroundColor = notSelectedColor
+            option4Btn.backgroundColor = notSelectedColor
         }
     }
 
@@ -105,6 +118,11 @@ class ViewController: UIViewController {
     func selectOption3() {
         if !isProcessingAnswer {
             selectedOption = selectedOption == 3 ? 0 : 3
+            
+            option1Btn.backgroundColor = notSelectedColor
+            option2Btn.backgroundColor = notSelectedColor
+            option3Btn.backgroundColor = selectedOption == 3 ? selectedColor : notSelectedColor
+            option4Btn.backgroundColor = notSelectedColor
         }
     }
     
@@ -115,8 +133,14 @@ class ViewController: UIViewController {
     func selectOption4() {
         if !isProcessingAnswer {
             selectedOption = selectedOption == 4 ? 0 : 4
+            
+            option1Btn.backgroundColor = notSelectedColor
+            option2Btn.backgroundColor = notSelectedColor
+            option3Btn.backgroundColor = notSelectedColor
+            option4Btn.backgroundColor = selectedOption == 4 ? selectedColor : notSelectedColor
         }
     }
+    
     
     // MARK: - Answer actions
 
@@ -134,7 +158,7 @@ class ViewController: UIViewController {
             return
         }
         
-        self.isCorrectAnswer = question.correctAnswer == question.allAnswers[selectedOption - 1]
+        self.isCorrectAnswer = question.correctIndex == selectedOption - 1
         quiz.correctAnswersCount += isCorrectAnswer ? 1 : 0
         
         let alert = UIAlertController(title: isCorrectAnswer ? "Correct :)" : "Wrong :(",
