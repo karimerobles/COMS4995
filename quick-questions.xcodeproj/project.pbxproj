@@ -13,6 +13,7 @@
 		13A44F7C2553B8940089FAFB /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13A44F7B2553B8940089FAFB /* HomeVC.swift */; };
 		629F129C2C2AB8DF53EECB86 /* Pods_quick_questionsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7726B57130F0D37109BB37EB /* Pods_quick_questionsTests.framework */; };
 		CC8E13CDBAF5274D145BAE50 /* Pods_quick_questions_quick_questionsUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8D23E3059491D5A68CC7300 /* Pods_quick_questions_quick_questionsUITests.framework */; };
+		CFAB4F7A2582FFDA005AB811 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFAB4F792582FFDA005AB811 /* Question.swift */; };
 		CFCEFC28252EA3F3003ACC9A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFCEFC27252EA3F3003ACC9A /* AppDelegate.swift */; };
 		CFCEFC2A252EA3F3003ACC9A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFCEFC29252EA3F3003ACC9A /* SceneDelegate.swift */; };
 		CFCEFC2C252EA3F3003ACC9A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFCEFC2B252EA3F3003ACC9A /* ViewController.swift */; };
@@ -54,6 +55,7 @@
 		2B814D150B0B21EB47BF4F3E /* Pods-quick-questions.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-quick-questions.release.xcconfig"; path = "Target Support Files/Pods-quick-questions/Pods-quick-questions.release.xcconfig"; sourceTree = "<group>"; };
 		2C8AAA9BBC85119FC99EBBEE /* Pods-quick-questions-quick-questionsUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-quick-questions-quick-questionsUITests.release.xcconfig"; path = "Target Support Files/Pods-quick-questions-quick-questionsUITests/Pods-quick-questions-quick-questionsUITests.release.xcconfig"; sourceTree = "<group>"; };
 		7726B57130F0D37109BB37EB /* Pods_quick_questionsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_quick_questionsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFAB4F792582FFDA005AB811 /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
 		CFCEFC24252EA3F3003ACC9A /* quick-questions.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "quick-questions.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CFCEFC27252EA3F3003ACC9A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CFCEFC29252EA3F3003ACC9A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -109,6 +111,25 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		CFAB4F772582FF82005AB811 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				CFCEFC2B252EA3F3003ACC9A /* ViewController.swift */,
+				13A44F7B2553B8940089FAFB /* HomeVC.swift */,
+				13936D6D2553D541003F2433 /* ResultsVC.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		CFAB4F782582FFAF005AB811 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				13A44F762553AB190089FAFB /* Quiz.swift */,
+				CFAB4F792582FFDA005AB811 /* Question.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		CFCEFC1B252EA3F3003ACC9A = {
 			isa = PBXGroup;
 			children = (
@@ -134,17 +155,15 @@
 		CFCEFC26252EA3F3003ACC9A /* quick-questions */ = {
 			isa = PBXGroup;
 			children = (
+				CFAB4F782582FFAF005AB811 /* Models */,
+				CFAB4F772582FF82005AB811 /* View Controllers */,
 				CFCEFC27252EA3F3003ACC9A /* AppDelegate.swift */,
 				CFCEFC29252EA3F3003ACC9A /* SceneDelegate.swift */,
-				CFCEFC2B252EA3F3003ACC9A /* ViewController.swift */,
 				CFCEFC2D252EA3F3003ACC9A /* Main.storyboard */,
 				CFCEFC30252EA400003ACC9A /* Assets.xcassets */,
 				CFCEFC32252EA400003ACC9A /* LaunchScreen.storyboard */,
 				CFCEFC35252EA400003ACC9A /* Info.plist */,
 				13A44F71255375760089FAFB /* QuizDatabaseHelper.swift */,
-				13A44F762553AB190089FAFB /* Quiz.swift */,
-				13A44F7B2553B8940089FAFB /* HomeVC.swift */,
-				13936D6D2553D541003F2433 /* ResultsVC.swift */,
 			);
 			path = "quick-questions";
 			sourceTree = "<group>";
@@ -401,6 +420,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				13936D6E2553D541003F2433 /* ResultsVC.swift in Sources */,
+				CFAB4F7A2582FFDA005AB811 /* Question.swift in Sources */,
 				CFCEFC2C252EA3F3003ACC9A /* ViewController.swift in Sources */,
 				13A44F772553AB190089FAFB /* Quiz.swift in Sources */,
 				13A44F72255375770089FAFB /* QuizDatabaseHelper.swift in Sources */,
