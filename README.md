@@ -30,9 +30,5 @@ Our docs are hosted at https://karimerobles.github.io/quickquestions/
 Quick questions is highly customizable to fit any quiz database you like. The current database used is to show how simple it is to add one.
 To add your own quiz database, all you need to do is to make sure the data will conform to the Quiz and Question models.
 
-
-### Release notes / Roadmap
-Coming soon.
-
 ## License
 Distributed under the MIT License. See [LICENSE](https://github.com/karimerobles/quickquestions/blob/master/LICENSE) for details.
