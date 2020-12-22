@@ -63,6 +63,7 @@ class HomeVC: UIViewController {
         numberTF.borderStyle = .none
         numberTF.keyboardType = .numberPad
         numberTF.textColor = .systemBlue
+        numberTF.accessibilityLabel = "Number of Questions"
     }
     
     private func _setCategoryOption() {

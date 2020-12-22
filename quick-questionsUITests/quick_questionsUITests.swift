@@ -29,14 +29,45 @@ class quick_questionsUITests: XCTestCase {
         let app = XCUIApplication()
         app.buttons["Start Quiz!"].tap()
         
+        //answer
         app.buttons["option1"].tap()
         app.buttons["Check Answer"].tap()
         
+        //go to results
         app.buttons["Results"].tap()
         
+        //go home
         app.buttons["Home"].tap()
         
+        //check that we're at home
         let startQuizBtn = app.buttons["Start Quiz!"]
         XCTAssert(startQuizBtn.exists)
+    }
+    
+    func testChangingNumberOfQuestions() throws {
+        let app = XCUIApplication()
+        
+        //change number of questions
+        let numberTF = app.textFields["Number of Questions"]
+        numberTF.tap()
+        numberTF.typeText("2")
+        
+        //start quiz
+        app.buttons["Start Quiz!"].tap()
+        
+        //answer
+        app.buttons["option1"].tap()
+        app.buttons["Check Answer"].tap()
+        
+        //go to the next question
+        app.buttons["Next"].tap()
+        
+        //answer next question
+        app.buttons["option2"].tap()
+        app.buttons["Check Answer"].tap()
+        
+        //check if test is done (meaning we done 2 questions)
+        let resultsBtn = app.buttons["Results"]
+        XCTAssert(resultsBtn.exists)
     }
 }
