@@ -56,14 +56,14 @@ class quick_questionsUITests: XCTestCase {
         app.buttons["Start Quiz!"].tap()
         
         //answer
-        app.buttons["option1"].tap()
+        app.buttons["option2"].tap()
         app.buttons["Check Answer"].tap()
         
         //go to the next question
         app.buttons["Next"].tap()
         
         //answer next question
-        app.buttons["option2"].tap()
+        app.buttons["option3"].tap()
         app.buttons["Check Answer"].tap()
         
         //check if test is done (meaning we done 2 questions)
@@ -93,5 +93,31 @@ class quick_questionsUITests: XCTestCase {
         
         //check if it actually changed
         XCTAssert(difficultyBtn.staticTexts["Medium"].exists)
+    }
+    
+    func testNotChoosingAnswer() throws {
+        let app = XCUIApplication()
+        app.buttons["Start Quiz!"].tap()
+        
+        //answer
+        app.buttons["Check Answer"].tap()
+        
+        //check to see if we're shown the need answer popup
+        let okBtn = app.buttons["Ok!"]
+        XCTAssert(okBtn.exists)
+    }
+    
+    func testSelectingAndDeselectingAnswer() throws {
+        let app = XCUIApplication()
+        app.buttons["Start Quiz!"].tap()
+        
+        //answer
+        app.buttons["option4"].tap()
+        app.buttons["option4"].tap()
+        app.buttons["Check Answer"].tap()
+        
+        //check to see if we're shown the need answer popup
+        let okBtn = app.buttons["Ok!"]
+        XCTAssert(okBtn.exists)
     }
 }

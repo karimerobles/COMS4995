@@ -170,6 +170,14 @@ class ViewController: UIViewController {
               let quiz = self.quiz,
               let question = quiz.currentQuestion else {
             isProcessingAnswer = false
+            
+            let alert = UIAlertController(title: "Please choose an answer.",
+                                          message: nil,
+                                          preferredStyle: .alert)
+            let okAction = UIAlertAction(title: "Ok!", style: .cancel, handler: nil)
+            alert.addAction(okAction)
+            self.present(alert, animated: true, completion: nil)
+            
             return
         }
         
