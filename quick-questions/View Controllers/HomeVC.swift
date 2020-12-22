@@ -84,6 +84,7 @@ class HomeVC: UIViewController {
         
         categoryBtn.setTitle(_category.toString(), for: .normal)
         categoryBtn.titleLabel?.font = UIFont.systemFont(ofSize: 20, weight: .semibold)
+        categoryBtn.accessibilityLabel = "categoryBtn"
     }
     
     private func _setDifficultyOption() {
@@ -114,6 +115,7 @@ class HomeVC: UIViewController {
         
         difficultyBtn.setTitle(_difficulty.rawValue, for: .normal)
         difficultyBtn.titleLabel?.font = UIFont.systemFont(ofSize: 20, weight: .semibold)
+        difficultyBtn.accessibilityLabel = "difficultyBtn"
     }
     
     // MARK: - Continue

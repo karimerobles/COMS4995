@@ -66,10 +66,7 @@ class ViewController: UIViewController {
     
     private func _setViewWithQuestion(with question: Question) {
         DispatchQueue.main.async {
-            if question.correctAnswer == "" || question.incorrectAnswers.count == 0 {
-                //Show error
-                print("error")
-            }
+            if question.correctAnswer == "" || question.incorrectAnswers.count == 0 { print("error") }
             
             self.questionLbl.text = question.question
             
