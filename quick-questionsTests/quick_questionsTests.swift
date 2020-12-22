@@ -22,7 +22,7 @@ class quick_questionsTests: XCTestCase {
         //check selection is nothing at intialization
         XCTAssertEqual(vc.selectedOption, 0)
         
-        vc.selectOption1()
+        vc.selectOption1(isUnitTest: true)
         XCTAssertEqual(vc.selectedOption, 1)
     }
     
@@ -35,13 +35,13 @@ class quick_questionsTests: XCTestCase {
         //check selection is nothing at intialization
         XCTAssertEqual(vc.selectedOption, 0)
         
-        vc.selectOption1()
+        vc.selectOption1(isUnitTest: true)
         XCTAssertEqual(vc.selectedOption, 1)
         
-        vc.selectOption2()
+        vc.selectOption2(isUnitTest: true)
         XCTAssertEqual(vc.selectedOption, 2)
         
-        vc.selectOption3()
+        vc.selectOption3(isUnitTest: true)
         XCTAssertEqual(vc.selectedOption, 3)
     }
     
@@ -54,10 +54,10 @@ class quick_questionsTests: XCTestCase {
         //check selection is nothing at intialization
         XCTAssertEqual(vc.selectedOption, 0)
         
-        vc.selectOption1()
+        vc.selectOption1(isUnitTest: true)
         XCTAssertEqual(vc.selectedOption, 1)
         
-        vc.selectOption1()
+        vc.selectOption1(isUnitTest: true)
         XCTAssertEqual(vc.selectedOption, 0)
     }
     
@@ -70,7 +70,7 @@ class quick_questionsTests: XCTestCase {
         XCTAssertEqual(vc.selectedOption, 0)
         XCTAssertFalse(vc.isProcessingAnswer)
         
-        vc.selectOption1()
+        vc.selectOption1(isUnitTest: true)
         XCTAssertEqual(vc.selectedOption, 1)
         
         vc.answerIsCorrect()
@@ -88,7 +88,7 @@ class quick_questionsTests: XCTestCase {
         XCTAssertEqual(vc.selectedOption, 0)
         XCTAssertFalse(vc.isProcessingAnswer)
         
-        vc.selectOption1()
+        vc.selectOption1(isUnitTest: true)
         XCTAssertEqual(vc.selectedOption, 1)
         
         vc.answerIsWrong()

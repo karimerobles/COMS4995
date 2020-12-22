@@ -90,62 +90,70 @@ class ViewController: UIViewController {
     // MARK: - Selection actions
 
     @IBAction func option1Tap(_ sender: Any) {
-        selectOption1()
+        selectOption1(isUnitTest: false)
     }
 
-    func selectOption1() {
+    func selectOption1(isUnitTest: Bool) {
         if !isProcessingAnswer {
             selectedOption = selectedOption == 1 ? 0 : 1
             
-            option1Btn.backgroundColor = selectedOption == 1 ? selectedColor : notSelectedColor
-            option2Btn.backgroundColor = notSelectedColor
-            option3Btn.backgroundColor = notSelectedColor
-            option4Btn.backgroundColor = notSelectedColor
+            if !isUnitTest {
+                option1Btn.backgroundColor = selectedOption == 1 ? selectedColor : notSelectedColor
+                option2Btn.backgroundColor = notSelectedColor
+                option3Btn.backgroundColor = notSelectedColor
+                option4Btn.backgroundColor = notSelectedColor
+            }
         }
     }
 
     @IBAction func option2Tap(_ sender: Any) {
-        selectOption2()
+        selectOption2(isUnitTest: false)
     }
 
-    func selectOption2() {
+    func selectOption2(isUnitTest: Bool) {
         if !isProcessingAnswer {
             selectedOption = selectedOption == 2 ? 0 : 2
             
-            option1Btn.backgroundColor = notSelectedColor
-            option2Btn.backgroundColor = selectedOption == 2 ? selectedColor : notSelectedColor
-            option3Btn.backgroundColor = notSelectedColor
-            option4Btn.backgroundColor = notSelectedColor
+            if !isUnitTest {
+                option1Btn.backgroundColor = notSelectedColor
+                option2Btn.backgroundColor = selectedOption == 2 ? selectedColor : notSelectedColor
+                option3Btn.backgroundColor = notSelectedColor
+                option4Btn.backgroundColor = notSelectedColor
+            }
         }
     }
 
     @IBAction func option3Tap(_ sender: Any) {
-        selectOption3()
+        selectOption3(isUnitTest: false)
     }
 
-    func selectOption3() {
+    func selectOption3(isUnitTest: Bool) {
         if !isProcessingAnswer {
             selectedOption = selectedOption == 3 ? 0 : 3
             
-            option1Btn.backgroundColor = notSelectedColor
-            option2Btn.backgroundColor = notSelectedColor
-            option3Btn.backgroundColor = selectedOption == 3 ? selectedColor : notSelectedColor
-            option4Btn.backgroundColor = notSelectedColor
+            if !isUnitTest {
+                option1Btn.backgroundColor = notSelectedColor
+                option2Btn.backgroundColor = notSelectedColor
+                option3Btn.backgroundColor = selectedOption == 3 ? selectedColor : notSelectedColor
+                option4Btn.backgroundColor = notSelectedColor
+            }
         }
     }
     
     @IBAction func option4Tap(_ sender: Any) {
-        selectOption4()
+        selectOption4(isUnitTest: false)
     }
     
-    func selectOption4() {
+    func selectOption4(isUnitTest: Bool) {
         if !isProcessingAnswer {
             selectedOption = selectedOption == 4 ? 0 : 4
             
-            option1Btn.backgroundColor = notSelectedColor
-            option2Btn.backgroundColor = notSelectedColor
-            option3Btn.backgroundColor = notSelectedColor
-            option4Btn.backgroundColor = selectedOption == 4 ? selectedColor : notSelectedColor
+            if !isUnitTest {
+                option1Btn.backgroundColor = notSelectedColor
+                option2Btn.backgroundColor = notSelectedColor
+                option3Btn.backgroundColor = notSelectedColor
+                option4Btn.backgroundColor = selectedOption == 4 ? selectedColor : notSelectedColor
+            }
         }
     }
     
