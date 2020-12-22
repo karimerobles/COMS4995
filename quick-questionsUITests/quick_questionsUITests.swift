@@ -86,13 +86,26 @@ class quick_questionsUITests: XCTestCase {
     func testChangingDifficulty() throws {
         let app = XCUIApplication()
         
-        //change difficulty (default is easy)
+        //change/check medium difficulty (default is easy)
         let difficultyBtn = app.buttons["difficultyBtn"]
         difficultyBtn.tap()
         app.buttons["Medium"].tap()
-        
-        //check if it actually changed
         XCTAssert(difficultyBtn.staticTexts["Medium"].exists)
+        
+        //change/check hard difficulty
+        difficultyBtn.tap()
+        app.buttons["Hard"].tap()
+        XCTAssert(difficultyBtn.staticTexts["Hard"].exists)
+        
+        //change/check random difficulty
+        difficultyBtn.tap()
+        app.buttons["Random"].tap()
+        XCTAssert(difficultyBtn.staticTexts["Random"].exists)
+        
+        //change/check easy difficulty
+        difficultyBtn.tap()
+        app.buttons["Easy"].tap()
+        XCTAssert(difficultyBtn.staticTexts["Easy"].exists)
     }
     
     func testNotChoosingAnswer() throws {
