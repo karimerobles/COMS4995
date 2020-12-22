@@ -1,0 +1,691 @@
+{
+  "warnings": [
+    {
+      "file": "/Users/karimerobles/Desktop/Apps/quick-questions/quick-questions/AppDelegate.swift",
+      "line": 11,
+      "symbol": "AppDelegate",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/karimerobles/Desktop/Apps/quick-questions/quick-questions/AppDelegate.swift",
+      "line": 15,
+      "symbol": "AppDelegate.application(_:didFinishLaunchingWithOptions:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/karimerobles/Desktop/Apps/quick-questions/quick-questions/AppDelegate.swift",
+      "line": 22,
+      "symbol": "AppDelegate.application(_:configurationForConnecting:options:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/karimerobles/Desktop/Apps/quick-questions/quick-questions/AppDelegate.swift",
+      "line": 28,
+      "symbol": "AppDelegate.application(_:didDiscardSceneSessions:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/karimerobles/Desktop/Apps/quick-questions/quick-questions/HomeVC.swift",
+      "line": 10,
+      "symbol": "HomeVC",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/karimerobles/Desktop/Apps/quick-questions/quick-questions/HomeVC.swift",
+      "line": 14,
+      "symbol": "HomeVC.titleLbl",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/karimerobles/Desktop/Apps/quick-questions/quick-questions/HomeVC.swift",
+      "line": 16,
+      "symbol": "HomeVC.numberLbl",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/karimerobles/Desktop/Apps/quick-questions/quick-questions/HomeVC.swift",
+      "line": 17,
+      "symbol": "HomeVC.numberTF",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/karimerobles/Desktop/Apps/quick-questions/quick-questions/HomeVC.swift",
+      "line": 18,
+      "symbol": "HomeVC.categoryLbl",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/karimerobles/Desktop/Apps/quick-questions/quick-questions/HomeVC.swift",
+      "line": 19,
+      "symbol": "HomeVC.categoryBtn",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/karimerobles/Desktop/Apps/quick-questions/quick-questions/HomeVC.swift",
+      "line": 20,
+      "symbol": "HomeVC.difficultyLbl",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/karimerobles/Desktop/Apps/quick-questions/quick-questions/HomeVC.swift",
+      "line": 21,
+      "symbol": "HomeVC.difficultyBtn",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/karimerobles/Desktop/Apps/quick-questions/quick-questions/HomeVC.swift",
+      "line": 22,
+      "symbol": "HomeVC.continueBtn",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/karimerobles/Desktop/Apps/quick-questions/quick-questions/HomeVC.swift",
+      "line": 26,
+      "symbol": "HomeVC.numberOfQuestions",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/karimerobles/Desktop/Apps/quick-questions/quick-questions/HomeVC.swift",
+      "line": 27,
+      "symbol": "HomeVC._category",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/karimerobles/Desktop/Apps/quick-questions/quick-questions/HomeVC.swift",
+      "line": 28,
+      "symbol": "HomeVC._difficulty",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/karimerobles/Desktop/Apps/quick-questions/quick-questions/HomeVC.swift",
+      "line": 32,
+      "symbol": "HomeVC.viewDidLoad()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/karimerobles/Desktop/Apps/quick-questions/quick-questions/HomeVC.swift",
+      "line": 38,
+      "symbol": "HomeVC._setupView()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/karimerobles/Desktop/Apps/quick-questions/quick-questions/HomeVC.swift",
+      "line": 54,
+      "symbol": "HomeVC._setNumberOfQuestions()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/karimerobles/Desktop/Apps/quick-questions/quick-questions/HomeVC.swift",
+      "line": 67,
+      "symbol": "HomeVC._setCategoryOption()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/karimerobles/Desktop/Apps/quick-questions/quick-questions/HomeVC.swift",
+      "line": 87,
+      "symbol": "HomeVC._setDifficultyOption()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/karimerobles/Desktop/Apps/quick-questions/quick-questions/HomeVC.swift",
+      "line": 119,
+      "symbol": "HomeVC.continueBtnTap(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/karimerobles/Desktop/Apps/quick-questions/quick-questions/HomeVC.swift",
+      "line": 148,
+      "symbol": "HomeVC",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/karimerobles/Desktop/Apps/quick-questions/quick-questions/HomeVC.swift",
+      "line": 150,
+      "symbol": "HomeVC.textField(_:shouldChangeCharactersIn:replacementString:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/karimerobles/Desktop/Apps/quick-questions/quick-questions/HomeVC.swift",
+      "line": 156,
+      "symbol": "HomeVC.textFieldDidEndEditing(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/karimerobles/Desktop/Apps/quick-questions/quick-questions/Quiz.swift",
+      "line": 10,
+      "symbol": "Quiz",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/karimerobles/Desktop/Apps/quick-questions/quick-questions/Quiz.swift",
+      "line": 12,
+      "symbol": "Quiz.questions",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/karimerobles/Desktop/Apps/quick-questions/quick-questions/Quiz.swift",
+      "line": 13,
+      "symbol": "Quiz.questionIndex",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/karimerobles/Desktop/Apps/quick-questions/quick-questions/Quiz.swift",
+      "line": 14,
+      "symbol": "Quiz.currentQuestion",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/karimerobles/Desktop/Apps/quick-questions/quick-questions/Quiz.swift",
+      "line": 15,
+      "symbol": "Quiz.correctAnswersCount",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/karimerobles/Desktop/Apps/quick-questions/quick-questions/Quiz.swift",
+      "line": 17,
+      "symbol": "Quiz.init(from:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/karimerobles/Desktop/Apps/quick-questions/quick-questions/Quiz.swift",
+      "line": 39,
+      "symbol": "Quiz.getNextQuestion()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/karimerobles/Desktop/Apps/quick-questions/quick-questions/Quiz.swift",
+      "line": 50,
+      "symbol": "Question",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/karimerobles/Desktop/Apps/quick-questions/quick-questions/Quiz.swift",
+      "line": 52,
+      "symbol": "Question.question",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/karimerobles/Desktop/Apps/quick-questions/quick-questions/Quiz.swift",
+      "line": 53,
+      "symbol": "Question.difficulty",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/karimerobles/Desktop/Apps/quick-questions/quick-questions/Quiz.swift",
+      "line": 55,
+      "symbol": "Question.allAnswers",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/karimerobles/Desktop/Apps/quick-questions/quick-questions/Quiz.swift",
+      "line": 56,
+      "symbol": "Question.incorrectAnswers",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/karimerobles/Desktop/Apps/quick-questions/quick-questions/Quiz.swift",
+      "line": 57,
+      "symbol": "Question.correctAnswer",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/karimerobles/Desktop/Apps/quick-questions/quick-questions/Quiz.swift",
+      "line": 59,
+      "symbol": "Question.init(jsonDict:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/karimerobles/Desktop/Apps/quick-questions/quick-questions/Quiz.swift",
+      "line": 86,
+      "symbol": "Question._correctStringFormat(of:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/karimerobles/Desktop/Apps/quick-questions/quick-questions/QuizDatabaseHelper.swift",
+      "line": 10,
+      "symbol": "QuizDatabaseHelper",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/karimerobles/Desktop/Apps/quick-questions/quick-questions/QuizDatabaseHelper.swift",
+      "line": 14,
+      "symbol": "QuizDatabaseHelper.Category",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/karimerobles/Desktop/Apps/quick-questions/quick-questions/QuizDatabaseHelper.swift",
+      "line": 15,
+      "symbol": "QuizDatabaseHelper.Category.generalKnowledge",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/karimerobles/Desktop/Apps/quick-questions/quick-questions/QuizDatabaseHelper.swift",
+      "line": 16,
+      "symbol": "QuizDatabaseHelper.Category.entertainmentFilm",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/karimerobles/Desktop/Apps/quick-questions/quick-questions/QuizDatabaseHelper.swift",
+      "line": 17,
+      "symbol": "QuizDatabaseHelper.Category.entertainmentTelevision",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/karimerobles/Desktop/Apps/quick-questions/quick-questions/QuizDatabaseHelper.swift",
+      "line": 18,
+      "symbol": "QuizDatabaseHelper.Category.scienceAndNature",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/karimerobles/Desktop/Apps/quick-questions/quick-questions/QuizDatabaseHelper.swift",
+      "line": 19,
+      "symbol": "QuizDatabaseHelper.Category.science_computers",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/karimerobles/Desktop/Apps/quick-questions/quick-questions/QuizDatabaseHelper.swift",
+      "line": 21,
+      "symbol": "QuizDatabaseHelper.Category.toString()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/karimerobles/Desktop/Apps/quick-questions/quick-questions/QuizDatabaseHelper.swift",
+      "line": 39,
+      "symbol": "QuizDatabaseHelper.Difficulty",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/karimerobles/Desktop/Apps/quick-questions/quick-questions/QuizDatabaseHelper.swift",
+      "line": 40,
+      "symbol": "QuizDatabaseHelper.Difficulty.random",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/karimerobles/Desktop/Apps/quick-questions/quick-questions/QuizDatabaseHelper.swift",
+      "line": 41,
+      "symbol": "QuizDatabaseHelper.Difficulty.easy",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/karimerobles/Desktop/Apps/quick-questions/quick-questions/QuizDatabaseHelper.swift",
+      "line": 42,
+      "symbol": "QuizDatabaseHelper.Difficulty.medium",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/karimerobles/Desktop/Apps/quick-questions/quick-questions/QuizDatabaseHelper.swift",
+      "line": 43,
+      "symbol": "QuizDatabaseHelper.Difficulty.hard",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/karimerobles/Desktop/Apps/quick-questions/quick-questions/QuizDatabaseHelper.swift",
+      "line": 44,
+      "symbol": "QuizDatabaseHelper.Difficulty.unknown",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/karimerobles/Desktop/Apps/quick-questions/quick-questions/QuizDatabaseHelper.swift",
+      "line": 46,
+      "symbol": "QuizDatabaseHelper.Difficulty.fromString(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/karimerobles/Desktop/Apps/quick-questions/quick-questions/QuizDatabaseHelper.swift",
+      "line": 61,
+      "symbol": "QuizDatabaseHelper.getQuiz(numberOfQuestions:category:difficulty:completionHandler:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/karimerobles/Desktop/Apps/quick-questions/quick-questions/ResultsVC.swift",
+      "line": 10,
+      "symbol": "ResultsVC",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/karimerobles/Desktop/Apps/quick-questions/quick-questions/ResultsVC.swift",
+      "line": 14,
+      "symbol": "ResultsVC.titleLbl",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/karimerobles/Desktop/Apps/quick-questions/quick-questions/ResultsVC.swift",
+      "line": 15,
+      "symbol": "ResultsVC.resultsLbl",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/karimerobles/Desktop/Apps/quick-questions/quick-questions/ResultsVC.swift",
+      "line": 16,
+      "symbol": "ResultsVC.continueBtn",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/karimerobles/Desktop/Apps/quick-questions/quick-questions/ResultsVC.swift",
+      "line": 18,
+      "symbol": "ResultsVC.quiz",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/karimerobles/Desktop/Apps/quick-questions/quick-questions/ResultsVC.swift",
+      "line": 22,
+      "symbol": "ResultsVC.viewDidLoad()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/karimerobles/Desktop/Apps/quick-questions/quick-questions/ResultsVC.swift",
+      "line": 28,
+      "symbol": "ResultsVC._setupView()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/karimerobles/Desktop/Apps/quick-questions/quick-questions/ResultsVC.swift",
+      "line": 45,
+      "symbol": "ResultsVC.continueBtnTap(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/karimerobles/Desktop/Apps/quick-questions/quick-questions/SceneDelegate.swift",
+      "line": 11,
+      "symbol": "SceneDelegate",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/karimerobles/Desktop/Apps/quick-questions/quick-questions/SceneDelegate.swift",
+      "line": 13,
+      "symbol": "SceneDelegate.window",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/karimerobles/Desktop/Apps/quick-questions/quick-questions/SceneDelegate.swift",
+      "line": 16,
+      "symbol": "SceneDelegate.scene(_:willConnectTo:options:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/karimerobles/Desktop/Apps/quick-questions/quick-questions/SceneDelegate.swift",
+      "line": 23,
+      "symbol": "SceneDelegate.sceneDidDisconnect(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/karimerobles/Desktop/Apps/quick-questions/quick-questions/SceneDelegate.swift",
+      "line": 30,
+      "symbol": "SceneDelegate.sceneDidBecomeActive(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/karimerobles/Desktop/Apps/quick-questions/quick-questions/SceneDelegate.swift",
+      "line": 35,
+      "symbol": "SceneDelegate.sceneWillResignActive(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/karimerobles/Desktop/Apps/quick-questions/quick-questions/SceneDelegate.swift",
+      "line": 40,
+      "symbol": "SceneDelegate.sceneWillEnterForeground(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/karimerobles/Desktop/Apps/quick-questions/quick-questions/SceneDelegate.swift",
+      "line": 45,
+      "symbol": "SceneDelegate.sceneDidEnterBackground(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/karimerobles/Desktop/Apps/quick-questions/quick-questions/ViewController.swift",
+      "line": 10,
+      "symbol": "ViewController",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/karimerobles/Desktop/Apps/quick-questions/quick-questions/ViewController.swift",
+      "line": 14,
+      "symbol": "ViewController.questionLbl",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/karimerobles/Desktop/Apps/quick-questions/quick-questions/ViewController.swift",
+      "line": 15,
+      "symbol": "ViewController.option1Btn",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/karimerobles/Desktop/Apps/quick-questions/quick-questions/ViewController.swift",
+      "line": 16,
+      "symbol": "ViewController.option2Btn",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/karimerobles/Desktop/Apps/quick-questions/quick-questions/ViewController.swift",
+      "line": 17,
+      "symbol": "ViewController.option3Btn",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/karimerobles/Desktop/Apps/quick-questions/quick-questions/ViewController.swift",
+      "line": 18,
+      "symbol": "ViewController.option4Btn",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/karimerobles/Desktop/Apps/quick-questions/quick-questions/ViewController.swift",
+      "line": 19,
+      "symbol": "ViewController.answerBtn",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/karimerobles/Desktop/Apps/quick-questions/quick-questions/ViewController.swift",
+      "line": 23,
+      "symbol": "ViewController.selectedOption",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/karimerobles/Desktop/Apps/quick-questions/quick-questions/ViewController.swift",
+      "line": 24,
+      "symbol": "ViewController.isProcessingAnswer",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/karimerobles/Desktop/Apps/quick-questions/quick-questions/ViewController.swift",
+      "line": 25,
+      "symbol": "ViewController.isCorrectAnswer",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/karimerobles/Desktop/Apps/quick-questions/quick-questions/ViewController.swift",
+      "line": 27,
+      "symbol": "ViewController.quiz",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/karimerobles/Desktop/Apps/quick-questions/quick-questions/ViewController.swift",
+      "line": 30,
+      "symbol": "ViewController.viewDidLoad()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/karimerobles/Desktop/Apps/quick-questions/quick-questions/ViewController.swift",
+      "line": 35,
+      "symbol": "ViewController._setupView()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/karimerobles/Desktop/Apps/quick-questions/quick-questions/ViewController.swift",
+      "line": 46,
+      "symbol": "ViewController._setViewWithQuestion(with:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/karimerobles/Desktop/Apps/quick-questions/quick-questions/ViewController.swift",
+      "line": 73,
+      "symbol": "ViewController.option1Tap(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/karimerobles/Desktop/Apps/quick-questions/quick-questions/ViewController.swift",
+      "line": 77,
+      "symbol": "ViewController.selectOption1()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/karimerobles/Desktop/Apps/quick-questions/quick-questions/ViewController.swift",
+      "line": 83,
+      "symbol": "ViewController.option2Tap(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/karimerobles/Desktop/Apps/quick-questions/quick-questions/ViewController.swift",
+      "line": 87,
+      "symbol": "ViewController.selectOption2()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/karimerobles/Desktop/Apps/quick-questions/quick-questions/ViewController.swift",
+      "line": 93,
+      "symbol": "ViewController.option3Tap(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/karimerobles/Desktop/Apps/quick-questions/quick-questions/ViewController.swift",
+      "line": 97,
+      "symbol": "ViewController.selectOption3()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/karimerobles/Desktop/Apps/quick-questions/quick-questions/ViewController.swift",
+      "line": 103,
+      "symbol": "ViewController.option4Tap(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/karimerobles/Desktop/Apps/quick-questions/quick-questions/ViewController.swift",
+      "line": 107,
+      "symbol": "ViewController.selectOption4()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/karimerobles/Desktop/Apps/quick-questions/quick-questions/ViewController.swift",
+      "line": 115,
+      "symbol": "ViewController.answerBtnTap(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/karimerobles/Desktop/Apps/quick-questions/quick-questions/ViewController.swift",
+      "line": 119,
+      "symbol": "ViewController.answerTap()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/karimerobles/Desktop/Apps/quick-questions/quick-questions/ViewController.swift",
+      "line": 165,
+      "symbol": "ViewController.answerIsCorrect()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/karimerobles/Desktop/Apps/quick-questions/quick-questions/ViewController.swift",
+      "line": 172,
+      "symbol": "ViewController.answerIsWrong()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    }
+  ],
+  "source_directory": "/Users/karimerobles/Desktop/Apps/quick-questions"
+}
