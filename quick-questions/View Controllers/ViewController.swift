@@ -43,9 +43,13 @@ class ViewController: UIViewController {
         questionLbl.numberOfLines = 0
         
         option1Btn.layer.cornerRadius = 10
+        option1Btn.accessibilityLabel = "option1"
         option2Btn.layer.cornerRadius = 10
+        option2Btn.accessibilityLabel = "option2"
         option3Btn.layer.cornerRadius = 10
+        option3Btn.accessibilityLabel = "option3"
         option4Btn.layer.cornerRadius = 10
+        option4Btn.accessibilityLabel = "option4"
         
         answerBtn.setTitle("Check Answer", for: .normal)
         answerBtn.layer.cornerRadius = 10
